@@ -84,3 +84,5 @@ To pull the latest updates:
 
 ## 🚀 Enjoy Watching Twitch on Your Own Schedule! 🎉
 
+
+-this is currently brpken, feel free to help with de-bugging
