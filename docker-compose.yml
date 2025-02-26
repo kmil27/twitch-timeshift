@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  twitch_timeshift:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      TWITCH_CLIENT_ID: "your_client_id"
+      TWITCH_CLIENT_SECRET: "your_client_secret"
+      USER_TIMEZONE: "America/New_York"
+    volumes:
+      - ./data:/app/data
